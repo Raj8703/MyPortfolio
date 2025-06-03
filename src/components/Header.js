@@ -9,7 +9,7 @@ const Header = ({ isScrolled }) => {
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-gray-900/95 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+          : "bg-gray-900/95 "
       }`}
     >
       <nav className="container mx-auto px-6 py-4">
