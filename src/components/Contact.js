@@ -20,7 +20,7 @@ const Contact = () => {
     {
       icon: <Github className="w-6 h-6 text-purple-400" />,
       text: "github.com/raj-sathwara",
-      link: "https://github.com/",
+      link: "https://github.com/Raj8703",
     },
   ];
 
