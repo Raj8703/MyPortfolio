@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Mail, Linkedin } from "lucide-react";
+import { Github, Mail, Linkedin, Phone } from "lucide-react";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 const Contact = () => {
@@ -11,6 +11,11 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6 text-cyan-400" />,
       text: "sathwararaj124@gmail.com",
       link: "mailto:sathwararaj124@gmail.com",
+    },
+    {
+      icon: <Phone className="w-6 h-6 text-green-400" />,
+      text: "+91 93283 20775",
+      link: "tel:9328320775",
     },
     {
       icon: <Linkedin className="w-6 h-6 text-blue-400" />,
